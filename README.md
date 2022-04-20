@@ -1,5 +1,6 @@
 # The Android and the Sheep
-Run 'run_server.bat' to start the game <br/>
+Run 'run-server.bat' to start the game <br/>
+Run 'run-quicktest.bat' to run a quick test to check if you messed up <br/>
 More instructions in doc/index.html <br/>
 
 <br/>
