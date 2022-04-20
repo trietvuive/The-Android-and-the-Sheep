@@ -12,6 +12,9 @@
 *create leadership 50
 *create strength 50
 
+Anya saying "heh"
+*image anya.png
+
 *page_break
 
 Your majesty, your people are starving in the streets, and threaten revolution.

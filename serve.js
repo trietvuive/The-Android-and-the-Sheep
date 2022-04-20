@@ -71,7 +71,7 @@ function openUrl(url) {
   }
 }
 
-server.listen({port: 8888, host:'127.0.0.1'}, (err) => {
+server.listen({port: 3000, host:'127.0.0.1'}, (err) => {
   base = `http://localhost:${server.address().port}`;
   console.log(`server is ready: ${base}`);
   console.log(`Press Ctrl-C or close this window to stop the server`);
