@@ -1,5 +1,6 @@
-*title Our very cool game
-*author Tree & Kitty
+*title The Android and the Sheep
+*author Alston Shi, Christy Lin & Triet Vo
+
 *scene_list
   startup
   animal
@@ -10,8 +11,6 @@
 
 *create leadership 50
 *create strength 50
-
-Christy is a bummmmm
 
 *page_break
 
