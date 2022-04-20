@@ -1,0 +1,1 @@
+Run 'run_server.bat' to start the game
