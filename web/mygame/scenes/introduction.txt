@@ -1,0 +1,24 @@
+Hello human. Please enter your name.
+*input_text name
+
+*page_break
+
+You work as a manager at a (Amazon) warehouse that produces robots. 
+The warehouse is dominated by low-intelligence robots and humans who society has abandoned.
+*image warehouse.jpg
+
+*page_break
+
+Worker-093 is a low-intelligence robot that was created in your factory. 
+This made Worker-093 look up to you. 
+You two are “friends,” although you’re not exactly sure what that means.
+*image bot.jpg
+
+*page_break
+
+Meow is your android cat. 
+Real cats become very rare after androids gain sentience, so you adopt an android cat instead. 
+
+*image cat.jpg
+
+*finish
