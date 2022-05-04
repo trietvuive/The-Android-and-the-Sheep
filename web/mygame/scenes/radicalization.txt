@@ -1,7 +1,9 @@
 Chapter 1: Radicalization
-*page_break
 
 As you're going about your day, you hear a commotion as an accident had occured. From a distance you can tell a robot is injured.
 
+*choice
+  #Continue working on your tasks. Helping out won't pay the bills.
+  *finish
 
 *finish
