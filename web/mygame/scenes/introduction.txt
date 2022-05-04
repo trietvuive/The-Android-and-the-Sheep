@@ -9,8 +9,8 @@ The warehouse is dominated by low-intelligence robots and humans who society has
 
 *page_break
 
-Worker-093 is a low-intelligence robot that was created in your factory. 
-This made Worker-093 look up to you. 
+Sisyphus is a low-intelligence robot that was created in your factory. 
+This made Sisyphus look up to you. 
 You two are “friends,” although you’re not exactly sure what that means.
 *image bot.jpg
 
