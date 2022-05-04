@@ -5,16 +5,17 @@ As you're going about your day, you hear a commotion as an accident had occured.
 *choice
   #Ignore the commotion.
     You continue working on your tasks as helping won't pay the bills.
+    *set persuasion %-20
     *gosub choice_two
 
   #Help out.
     You rush towards the scene of the accident to determine a power surge caused the machinery to malfunction thus crippling the robot.
+    *set persuasion %+20
     *gosub choice_two
 
   #Act accordingly as the manager of the warehouse.
     You tell Sisyphus to call for medical help and continue on with your tasks.
     *gosub choice_two
-
 
 *label choice_two
 
@@ -25,10 +26,12 @@ A few days later, the exact details of the accident were reported to you.
 *choice
   #This is an annoyance in a otherwise good day.
     After showing no incentive, you are assigned by upper management to look into possible solutions to prevent future accidents.
+    *set persuasion %-20
     *gosub choice_three
 
   #This is a terrible tragedy.
     After obtaining the details of the accident, you instantly begin looking into possible solutions to prevent such accidents from occuring again.
+    *set persuasion %+20
     *gosub choice_three
 
   #This is a workplace hazard.
@@ -43,10 +46,12 @@ Later that week, you find out the injured robot died after being mistreated by d
 *choice
   #This is old news. Who cares?
     After the deceased robot was replaced, you decide the accident isn't worth addressing to the rest of the robots thus they start harboring ill feelings towards you.
+    *set persuasion %-30
     *finish
 
   #The team should know what happened to their co-worker and friend.
     You decide this is a matter worth addressing and gather a meeting with all the employees. Public opinion towards humans sway positively
+    *set persuasion %+30
     *finish
 
   #The team should be updated on the workplace hazard.
