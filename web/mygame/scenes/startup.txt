@@ -8,11 +8,9 @@
   radicalization
   ending
 
-*create leadership 50
-*create strength 50
+*create persuasion 50
 *create name "Kitty"
 
-*image anya.png
 *page_break
 
 *finish
