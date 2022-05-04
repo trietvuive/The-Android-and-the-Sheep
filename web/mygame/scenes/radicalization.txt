@@ -5,7 +5,7 @@ As you're going about your day, you hear a commotion as an accident had occured.
 *choice
   #Ignore the commotion.
     You continue working on your tasks as helping won't pay the bills.
-    *finish
+    *gosub choice_two
 
   #Help out.
     You rush towards the scene of the accident to determine a power surge caused the machinery to malfunction thus crippling the robot.
@@ -15,8 +15,10 @@ As you're going about your day, you hear a commotion as an accident had occured.
     You tell Sisyphus to call for medical help and continue on with your tasks.
     *finish
 
+
 *page_break
 
+*label choice_two
 A few days later, the exact details of the accident were reported to you.
 
 *choice
