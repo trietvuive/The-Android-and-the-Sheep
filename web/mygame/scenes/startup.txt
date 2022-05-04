@@ -3,9 +3,9 @@
 
 *scene_list
   startup
+  struggle
   introduction
   radicalization
-  struggle
   ending
 
 *create leadership 50

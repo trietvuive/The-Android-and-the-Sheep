@@ -1,4 +1,52 @@
-Hello again. This is chapter 1.
+Hello again. This is chapter 2.
 *page_break
+
+After the hospital incidence, Sisyphus told you that it is convinced that robots will never gain rights without violence.
+You...
+*choice
+	#Try to convince Sisyphus that violence is not the answer.
+		The android isn't convinced.
+		*goto choice3
+	#Ignore Sisyphus's antics.
+		The android notices your disinterest and remains quiet.
+		*goto choice3
+	#Agree with Sisyphus.
+		The android thank you for your support.
+		*goto choice3
+	
+*label choice3
+*page_break
+
+When you return to the warehouse, you found out that the higher up at Amazon is furious over the incidence.
+They have decided to suspend all treatment of androids as they conclude that it's no longer necessary to waste resources treating them.
+You're responsible on enforcing this policy. Would you...
+*choice
+	#Strictly enforce the policy. There's no need to be merciful towards android.
+		Your decision won't earn you any fan among the androids, but the higher up appreciates you for doing so.
+		*goto choice2
+	#Ignore the policy.
+		The higher up isn't aware of your defiant act, and neither does the android.
+		*goto choice2
+	#Openly denounce the policy.
+		The higher up doesn't appreciate your defiant act, although the androids do appreciate you for speaking out.
+		*goto choice2
+
+*label choice2
+*page_break
+
+You return to your normal manager job. 
+However, you increasingly notice strange behaviors from worker androids like being late to work, 
+stealing supplies, slacking off... You decide to pay a visit to Sisyphus's house to learn what's going on.
+
+*page_break
+
+
+
+
+*page_break
+
+
+
+
 
 *finish
