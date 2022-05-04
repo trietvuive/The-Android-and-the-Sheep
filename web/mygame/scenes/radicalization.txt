@@ -16,9 +16,9 @@ As you're going about your day, you hear a commotion as an accident had occured.
     *gosub choice_two
 
 
-*page_break
-
 *label choice_two
+
+*page_break
 
 A few days later, the exact details of the accident were reported to you.
 
@@ -35,9 +35,10 @@ A few days later, the exact details of the accident were reported to you.
     Fearing for your own safety, you decide to look into potential solutions to prevent future accidents from occuring.
     *gosub choice_three
 
+*label choice_three
+
 *page_break
 
-*label choice_three
 Later that week, you find out the injured robot died after being mistreated by doctors.
 *choice
   #This is old news. Who cares?
