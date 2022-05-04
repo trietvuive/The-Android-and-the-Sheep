@@ -3,7 +3,8 @@ Chapter 1: Radicalization
 As you're going about your day, you hear a commotion as an accident had occured. From a distance you can tell a robot is injured.
 
 *choice
-  #Continue working on your tasks. Helping out won't pay the bills.
-  *finish
+  #Ignore the commotion.
+    You continue working on your tasks as helping wont' pay the bills.
+    *finish
 
 *finish
