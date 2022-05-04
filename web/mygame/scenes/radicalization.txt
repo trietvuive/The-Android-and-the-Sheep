@@ -14,4 +14,40 @@ As you're going about your day, you hear a commotion as an accident had occured.
   #Act accordingly as the manager of the warehouse.
     You tell Sisyphus to call for medical help and continue on with your tasks.
     *finish
+
+*finish
+
+*page_break
+
+A few days later, the exact details of the accident were reported to you.
+
+*choice
+  #This is an annoyance in a otherwise good day.
+    After showing no incentive, you are assigned by upper management to look into possible solutions to prevent future accidents.
+    *finish
+
+  #This is a terrible tragedy.
+    After obtaining the details of the accident, you instantly begin looking into possible solutions to prevent such accidents from occuring again.
+
+  #This is a workplace hazard.
+    Fearing for your own safety, you decide to look into potential solutions to prevent future accidents from occuring.
+
+*finish
+
+*page_break
+
+Later that week, you find out the injured robot died after being mistreated by doctors.
+*choice
+  #This is old news. Who cares?
+    After the deceased robot was replaced, you decide the accident isn't worth addressing to the rest of the robots thus they start harboring ill feelings towards you.
+    *finish
+
+  #The team should know what happened to their co-worker and friend.
+    You decide this is a matter worth addressing and gather a meeting with all the employees. Public opinion towards humans sway positively
+    *finish
+
+  #The team should be updated on the workplace hazard.
+    You task Sisyphus with informing the other robots about the incident and prevention plan. Public opinion towards humans remain neutral.
+    *finish
+
 *finish
