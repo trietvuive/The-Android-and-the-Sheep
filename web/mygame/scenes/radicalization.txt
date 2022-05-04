@@ -50,12 +50,20 @@ Later that week, you find out the injured robot died after being mistreated by d
     *finish
 
   #The team should know what happened to their co-worker and friend.
-    You decide this is a matter worth addressing and gather a meeting with all the employees. Public opinion towards humans sway positively
+    You decide this is a matter worth addressing and gather a meeting with all the employees.
     *set persuasion %+30
     *finish
 
   #The team should be updated on the workplace hazard.
-    You task Sisyphus with informing the other robots about the incident and prevention plan. Public opinion towards humans remain neutral.
+    You task Sisyphus with informing the other robots about the incident and prevention plan.
     *finish
+
+*page_break
+
+Your actions were closely monitored by Sisyphus.
+
+Sisyphus, while attempting to help the injured robot, experienced firsthand the apathy of the common people to robots’ well-being. This radicalized Sisyphus to the fact that this society and its people will not budge on robot’s equality and that violence is the only means.
+
+Something sinister tirs in Sisyphus.
 
 *finish
