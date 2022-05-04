@@ -11,6 +11,9 @@
 *create persuasion 50
 *create name "Kitty"
 
+*image anya.png
+Christy is a bum
+
 *page_break
 
 *finish
