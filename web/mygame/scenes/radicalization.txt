@@ -1,21 +1,47 @@
 Chapter 1: Radicalization
 
+*page_break
+
+You wake up as you feel something is scratching your face. It's your cat, Meow. You...
+*image cat_wake_up.gif
+*choice
+  #Push the cat off
+    Meow jumps off you and hiss in response.
+    *image cat_push_off.gif
+    *set meow %- 20
+    *goto choice_one
+	
+  #Pat the cat
+    Meow purrs in response.
+    *image pat_cat.gif
+    *set meow %+ 20
+    *goto choice_one
+		
+*label choice_one
+*page_break
+
+You wake up and begin your day as another manager in Amazon warehouse.
+*image amazon_warehouse.png
+
+*page_break
+
 As you're going about your day, you hear a commotion as an accident had occured. From a distance you can tell a robot is injured.
+*image robot_falling.gif
 
 *choice
   #Ignore the commotion.
     You continue working on your tasks as helping won't pay the bills.
     *set persuasion %-20
-    *gosub choice_two
+    *goto choice_two
 
   #Help out.
     You rush towards the scene of the accident to determine a power surge caused the machinery to malfunction thus crippling the robot.
     *set persuasion %+20
-    *gosub choice_two
+    *goto choice_two
 
   #Act accordingly as the manager of the warehouse.
     You tell Sisyphus to call for medical help and continue on with your tasks.
-    *gosub choice_two
+    *goto choice_two
 
 *label choice_two
 
@@ -27,16 +53,16 @@ A few days later, the exact details of the accident were reported to you.
   #This is an annoyance in a otherwise good day.
     After showing no incentive, you are assigned by upper management to look into possible solutions to prevent future accidents.
     *set persuasion %-20
-    *gosub choice_three
+    *goto choice_three
 
   #This is a terrible tragedy.
     After obtaining the details of the accident, you instantly begin looking into possible solutions to prevent such accidents from occuring again.
     *set persuasion %+20
-    *gosub choice_three
+    *goto choice_three
 
   #This is a workplace hazard.
     Fearing for your own safety, you decide to look into potential solutions to prevent future accidents from occuring.
-    *gosub choice_three
+    *goto choice_three
 
 *label choice_three
 
@@ -47,16 +73,16 @@ Later that week, you find out the injured robot died after being mistreated by d
   #This is old news. Who cares?
     After the deceased robot was replaced, you decide the accident isn't worth addressing to the rest of the robots thus they start harboring ill feelings towards you.
     *set persuasion %-30
-    *gosub end_act_one
+    *goto end_act_one
 
   #The team should know what happened to their co-worker and friend.
     You decide this is a matter worth addressing and gather a meeting with all the employees.
     *set persuasion %+30
-    *gosub end_act_one
+    *goto end_act_one
 
   #The team should be updated on the workplace hazard.
     You task Sisyphus with informing the other robots about the incident and prevention plan.
-    *gosub end_act_one
+    *goto end_act_one
 
 *label end_act_one
 

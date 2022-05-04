@@ -3,12 +3,12 @@
 
 *scene_list
   startup
-  struggle
   introduction
   radicalization
-  ending
+  struggle
 
 *create persuasion 50
+*create meow 50
 *create name "Kitty"
 
 *image anya.png

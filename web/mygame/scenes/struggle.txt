@@ -1,20 +1,23 @@
 Hello again. This is chapter 2.
 *page_break
 
-After the hospital incidence, Sisyphus told you that it is convinced that robots will never gain rights without violence.
+After the hospital incidence, Sisyphus told you that it is convinced that androids will never gain rights without violence.
 You...
 *choice
 	#Try to convince Sisyphus that violence is not the answer.
 		The android isn't convinced.
-		*goto choice3
+		*set persuasion %- 10
+		*goto choice1
 	#Ignore Sisyphus's antics.
 		The android notices your disinterest and remains quiet.
-		*goto choice3
+		*set persuasion %- 20
+		*goto choice1
 	#Agree with Sisyphus.
 		The android thank you for your support.
-		*goto choice3
+		*set persuasion %+ 20
+		*goto choice1
 	
-*label choice3
+*label choice1
 *page_break
 
 When you return to the warehouse, you found out that the higher up at Amazon is furious over the incidence.
@@ -23,12 +26,14 @@ You're responsible on enforcing this policy. Would you...
 *choice
 	#Strictly enforce the policy. There's no need to be merciful towards android.
 		Your decision won't earn you any fan among the androids, but the higher up appreciates you for doing so.
+		*set persuasion %- 30
 		*goto choice2
 	#Ignore the policy.
 		The higher up isn't aware of your defiant act, and neither does the android.
 		*goto choice2
 	#Openly denounce the policy.
 		The higher up doesn't appreciate your defiant act, although the androids do appreciate you for speaking out.
+		*set persuasion %+ 30
 		*goto choice2
 
 *label choice2
@@ -37,16 +42,114 @@ You're responsible on enforcing this policy. Would you...
 You return to your normal manager job. 
 However, you increasingly notice strange behaviors from worker androids like being late to work, 
 stealing supplies, slacking off... You decide to pay a visit to Sisyphus's house to learn what's going on.
+Do you bring the cat with you?
+
+*temp bring_cat
+*choice
+	#Yes
+		Meow happily goes along.
+		*image cat_happy.png
+		*set meow %+ 20
+		*set bring_cat true
+		*goto choice3
+	#No
+		Meow grudgingly stays home.
+		*image cat_angry.png
+		*set meow %- 20
+		*set bring_cat false
+		*goto choice3
+
+*label choice3
+
+
+*temp join
+*temp android_join
+*temp snitch
+
+*set join false
+*set android_join false
+*set snitch false
 
 *page_break
 
+You arrive at Sisyphus's house and want to know the reason behinds the android's recent erratic behavior.
+You...
 
+*choice
+	*selectable_if (bring_cat) #Have Meow look around the place
+		Meow tells you that there are several androids making weapons in Sisyphus's house while talking about fighting a revolutionary war.
+		*image sniffing_cat.gif
+		*goto choice4
+	#Ask Sisyphus
+		Trusting you, Sisyphus tells you of their plan of stealing supplies and make weapons to fight a revolutionary war
+		*goto choice4
+	#Interrogate Sisyphus
+		Sisyphus becomes angry and demand you to leave.
+		*set android_join true
+		*goto choice5
 
+*label choice4
 
 *page_break
 
+You know that their plan is ridiculous and will fail. You...
+
+*choice
+	#Explain to the other androids that their chance of success is near-zero
+		*if (persuasion > 70)
+			The androids agree with you.
+			*goto choice5
+		*else
+			The androids disagree with you. You end up in a shouting match that lead to nowhere.
+			*set android_join true
+			*goto choice5
+			
+	#Promise to join them but plan to tell on them later
+		The androids aren't aware of your traitorous act and happily tells you of all their plans.
+		*set snitch true
+		*goto choice5
+	#Join them
+		The androids happily tell you of all their plans.
+		*set join true
+		*goto choice5
+
+*label choice5
+*page_break
+
+The day of the supposed revolution has come.
+Sisyphus gathers all the weapons and attempts to take over a nearby android manufacturing plant.
+*image robot_revolution.png
+
+*page_break
+
+*if (join)
+	You join and die together with the androids.
+	However, stories will be told about a human who is willing to die for another species' causes. Other people are bewildered and in disbelief by your actions, and you will have radicalized the dialogue surrounding android’s rights.
+	*image failed_revolution.png
+	
+*if (snitch)
+	Since you tell the authorities of the revolution, the androids is met by an oppressive military force.  The revolution was never televised and never happened.
+	*if (meow > 60)
+		You are rewarded with an actual cat for preventing the revolution.
+		*image cat.png
+		*goto ending
+	*else
+		Meow left, disturbed by your indifference towards the androids.
+		*image cat_leave.png
+		*goto ending
+
+*if not(android_join)
+	Sisyphus is the only one carrying out the revolution and was quickly killed. The androids will have to wait another day to gain their freedom.
+	*image dead_robot_2.png
+	*goto ending
+	
+*if (android_join)
+	The androids briefly take over the plant and enjoy their moment of fame before being wiped out by the military. You and Meow stay unharmed.
+	*image dead_robot.png
+	*goto ending
+
+*label ending
+*page_break
 
 
-
-
-*finish
+*ending
