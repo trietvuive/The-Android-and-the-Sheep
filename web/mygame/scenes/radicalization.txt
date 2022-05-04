@@ -15,8 +15,6 @@ As you're going about your day, you hear a commotion as an accident had occured.
     You tell Sisyphus to call for medical help and continue on with your tasks.
     *finish
 
-*finish
-
 *page_break
 
 A few days later, the exact details of the accident were reported to you.
@@ -28,11 +26,11 @@ A few days later, the exact details of the accident were reported to you.
 
   #This is a terrible tragedy.
     After obtaining the details of the accident, you instantly begin looking into possible solutions to prevent such accidents from occuring again.
+    *finish
 
   #This is a workplace hazard.
     Fearing for your own safety, you decide to look into potential solutions to prevent future accidents from occuring.
-
-*finish
+    *finish
 
 *page_break
 
