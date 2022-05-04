@@ -47,16 +47,18 @@ Later that week, you find out the injured robot died after being mistreated by d
   #This is old news. Who cares?
     After the deceased robot was replaced, you decide the accident isn't worth addressing to the rest of the robots thus they start harboring ill feelings towards you.
     *set persuasion %-30
-    *finish
+    *gosub end_act_one
 
   #The team should know what happened to their co-worker and friend.
     You decide this is a matter worth addressing and gather a meeting with all the employees.
     *set persuasion %+30
-    *finish
+    *gosub end_act_one
 
   #The team should be updated on the workplace hazard.
     You task Sisyphus with informing the other robots about the incident and prevention plan.
-    *finish
+    *gosub end_act_one
+
+*label end_act_one
 
 *page_break
 
