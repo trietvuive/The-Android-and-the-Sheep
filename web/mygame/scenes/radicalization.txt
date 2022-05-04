@@ -10,4 +10,8 @@ As you're going about your day, you hear a commotion as an accident had occured.
   #Help out.
     You rush towards the scene of the accident to determine a power surge caused the machinery to malfunction thus crippling the robot.
     *finish
+
+  #Act accordingly as the manager of the warehouse.
+    You tell Sisyphus to call for medical help and continue on with your tasks.
+    *finish
 *finish
