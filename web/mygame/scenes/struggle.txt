@@ -97,7 +97,7 @@ You know that their plan is ridiculous and will fail. You...
 *choice
 	#Explain to the other androids that their chance of success is near-zero
 		*if (persuasion > 70)
-			The androids agree with you.
+			The androids agree with you though Sisyphus disagrees
 			*goto choice5
 		*else
 			The androids disagree with you. You end up in a shouting match that lead to nowhere.
