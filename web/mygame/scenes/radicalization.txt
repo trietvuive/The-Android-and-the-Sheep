@@ -1,4 +1,4 @@
-*image chapter_1.jpg
+*image chapter_1.png
 
 *page_break
 

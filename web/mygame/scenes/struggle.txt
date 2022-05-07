@@ -1,4 +1,5 @@
-Hello again. This is chapter 2.
+*image chapter_2.png
+
 *page_break
 
 After the hospital incidence, Sisyphus told you that it is convinced that androids will never gain rights without violence.
