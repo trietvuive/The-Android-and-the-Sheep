@@ -11,8 +11,7 @@
 *create meow 50
 *create name "Kitty"
 
-*image anya.png
-Christy is a bum
+*image ai_human.jpg
 
 *page_break
 
