@@ -72,7 +72,7 @@ Do you bring the cat with you?
 
 *page_break
 
-You arrive at Sisyphus's house and want to know the reason behinds the android's recent erratic behavior.
+You arrive at Sisyphus's house and want to know the reason behind the android's recent erratic behavior.
 You...
 
 *choice
@@ -81,7 +81,7 @@ You...
 		*image sniffing_cat.gif
 		*goto choice4
 	#Ask Sisyphus
-		Trusting you, Sisyphus tells you of their plan of stealing supplies and make weapons to fight a revolutionary war
+		Trusting you, Sisyphus tells you of their plan of stealing supplies and making weapons to fight a revolutionary war.
 		*goto choice4
 	#Interrogate Sisyphus
 		Sisyphus becomes angry and demand you to leave.
@@ -105,11 +105,11 @@ You know that their plan is ridiculous and will fail. You...
 			*goto choice5
 			
 	#Promise to join them but plan to tell on them later
-		The androids aren't aware of your traitorous act and happily tells you of all their plans.
+		The androids aren't aware of your traitorous act and happily welcomes you aboard.
 		*set snitch true
 		*goto choice5
 	#Join them
-		The androids happily tell you of all their plans.
+		The androids welcomes you with open arms.
 		*set join true
 		*goto choice5
 
