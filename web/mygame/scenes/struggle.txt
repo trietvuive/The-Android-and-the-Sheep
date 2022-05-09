@@ -127,6 +127,7 @@ Sisyphus gathers all the weapons and attempts to take over a nearby android manu
 	You join and die together with the androids.
 	However, stories will be told about a human who is willing to die for another species' causes. Other people are bewildered and in disbelief by your actions, and you will have radicalized the dialogue surrounding android’s rights.
 	*image failed_revolution.png
+	*goto ending
 	
 *if (snitch)
 	Since you tell the authorities of the revolution, the androids is met by an oppressive military force.  The revolution was never televised and never happened.
