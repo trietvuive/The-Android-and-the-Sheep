@@ -20,7 +20,7 @@ You wake up as you feel something scratching your face. It's your cat, Meow. You
 *label choice_one
 *page_break
 
-You wake up and begin your day as another manager in Amazon warehouse.
+You wake up and begin your day as another manager at the Amazon warehouse. Your job is easy and not physically demanding compared to the low-intelligence robots and humans at the warehouse. You spend most of your time maintaining stock parts and looking at progress reports to make sure robots are assembled correctly and reporting directly to headquarters.
 *image amazon_warehouse.png
 
 *page_break
@@ -30,7 +30,7 @@ As you're going about your day, you hear a commotion as an accident had occured.
 
 *choice
   #Ignore the commotion
-    You continue working on your tasks as helping won't pay the bills.
+    You continue working on your tasks as helping won't pay the bills. You think to yourself about the unemployment numbers recently and it was not easy to land a managerial position at this warehouse. 
     *set persuasion %-20
     *goto choice_two
 

@@ -4,7 +4,7 @@ Hello human. Please enter your name.
 *page_break
 
 You work as a manager at a (Amazon) warehouse that produces robots. 
-The warehouse is dominated by low-intelligence robots and humans who society has abandoned.
+The warehouse is dominated by low-intelligence robots and humans who society has abandoned. You spend the day watching over robots who perform their task near perfection as automation technology is quite advanced.
 *image warehouse.jpg
 
 *page_break
