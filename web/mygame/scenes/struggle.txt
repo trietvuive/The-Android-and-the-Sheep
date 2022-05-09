@@ -5,15 +5,15 @@
 After the hospital incidence, Sisyphus told you that it is convinced that androids will never gain rights without violence.
 You...
 *choice
-	#Try to convince Sisyphus that violence is not the answer.
+	#Try to convince Sisyphus that violence is not the answer
 		The android isn't convinced.
 		*set persuasion %- 10
 		*goto choice1
 	#Ignore Sisyphus's antics.
-		The android notices your disinterest and remains quiet.
+		The android notices your disinterest and remains quiet
 		*set persuasion %- 20
 		*goto choice1
-	#Agree with Sisyphus.
+	#Agree with Sisyphus
 		The android thank you for your support.
 		*set persuasion %+ 20
 		*goto choice1
@@ -23,16 +23,16 @@ You...
 
 When you return to the warehouse, you found out that the higher up at Amazon is furious over the incidence.
 They have decided to suspend all treatment of androids as they conclude that it's no longer necessary to waste resources treating them.
-You're responsible on enforcing this policy. Would you...
+You're responsible for enforcing this policy. Would you...
 *choice
-	#Strictly enforce the policy. There's no need to be merciful towards android.
+	#Strictly enforce the policy. There's no need to be merciful towards android
 		Your decision won't earn you any fan among the androids, but the higher up appreciates you for doing so.
 		*set persuasion %- 30
 		*goto choice2
-	#Ignore the policy.
+	#Ignore the policy
 		The higher up isn't aware of your defiant act, and neither does the android.
 		*goto choice2
-	#Openly denounce the policy.
+	#Openly denounce the policy
 		The higher up doesn't appreciate your defiant act, although the androids do appreciate you for speaking out.
 		*set persuasion %+ 30
 		*goto choice2
@@ -98,7 +98,7 @@ You know that their plan is ridiculous and will fail. You...
 *choice
 	#Explain to the other androids that their chance of success is near-zero
 		*if (persuasion > 70)
-			The androids agree with you though Sisyphus disagrees
+			The androids agree with you though Sisyphus disagrees.
 			*goto choice5
 		*else
 			The androids disagree with you. You end up in a shouting match that lead to nowhere.

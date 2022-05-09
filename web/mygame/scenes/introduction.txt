@@ -17,7 +17,7 @@ You two are “friends,” although you’re not exactly sure what that means.
 *page_break
 
 Meow is your android cat. 
-Real cats become very rare after androids gain sentience, so you adopt an android cat instead. 
+Real cats became very rare after androids gain sentience, so you adopt an android cat instead. 
 
 *image cat.jpg
 

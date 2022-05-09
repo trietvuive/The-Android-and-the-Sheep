@@ -2,7 +2,7 @@
 
 *page_break
 
-You wake up as you feel something is scratching your face. It's your cat, Meow. You...
+You wake up as you feel something scratching your face. It's your cat, Meow. You...
 *image cat_wake_up.gif
 *choice
   #Push the cat off
